@@ -1,0 +1,14 @@
+.navbar {
+    &>.container {
+        @include flex-row;        
+        height: 100%;
+    }
+    &__toggle {        
+    }
+    &__menu {
+
+    }
+    &__user-menu {
+        margin-left: 0;
+    }
+}
